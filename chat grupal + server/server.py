@@ -4,7 +4,7 @@ import threading
 clientes = []
 hilos = []
 
-host = '192.168.1.93'
+host = 'localhost'
 port = 3333
 
 def manejar_cliente(c, add):
