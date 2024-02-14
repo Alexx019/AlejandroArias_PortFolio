@@ -35,7 +35,7 @@ def on_cerrar():
     enviar_mensaje(None, "/exit")
 
 # Configuración del socket
-host = '10.2.61.118'
+host = '192.168.169.50'
 port = 3333
 sk = socket.socket()
 sk.connect((host, port))
